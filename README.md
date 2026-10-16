@@ -63,57 +63,57 @@ Comparison of leading managed BaaS platforms, sorted descending by company scale
 
 ## 💻 Open-Source GitHub Projects
 
-Self-hosted Backend-as-a-Service, headless data platforms, and reactive backends sorted descending by GitHub star count:
+Self-hosted Backend-as-a-Service, headless data platforms, and reactive backends sorted descending by GitHub Stars_Count:
 
-- **[Supabase](https://github.com/supabase/supabase)** [![GitHub stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers)  
+- **[Supabase](https://github.com/supabase/supabase)** [![GitHub_Stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers)  
   ⚡ **The leading open-source Firebase alternative** *(Apache-2.0)*. Bundles a full PostgreSQL relational database with row-level security (RLS), PostgREST instant APIs, GoTrue authentication, storage, vector embeddings (`pgvector`), and WebSockets realtime change data capture (CDC). Deployable anywhere via Docker or Kubernetes.
 
-- **[Strapi](https://github.com/strapi/strapi)** [![GitHub stars](https://img.shields.io/github/stars/strapi/strapi?style=social&color=white)](https://github.com/strapi/strapi/stargazers)  
+- **[Strapi](https://github.com/strapi/strapi)** [![GitHub_Stars](https://img.shields.io/github/stars/strapi/strapi?style=social&color=white)](https://github.com/strapi/strapi/stargazers)  
   🚀 **Leading open-source headless CMS and API engine** *(Community Edition)*. 100% JavaScript/TypeScript framework providing instant auto-generated REST and GraphQL APIs, customizable admin panels, role-based access control (RBAC), and media library management over PostgreSQL, SQLite, or MySQL.
 
-- **[NocoDB](https://github.com/nocodb/nocodb)** [![GitHub stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers)  
+- **[NocoDB](https://github.com/nocodb/nocodb)** [![GitHub_Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers)  
   🔥 **Open-source Airtable and BaaS hybrid platform** *(AGPL-3.0)*. Transforms any existing relational database (PostgreSQL, MySQL, SQLite, SQL Server) into an interactive smart spreadsheet with auto-generated REST/GraphQL endpoints, webhook automations, role permissions, and views.
 
-- **[PocketBase](https://github.com/pocketbase/pocketbase)** [![GitHub stars](https://img.shields.io/github/stars/pocketbase/pocketbase?style=social&color=white)](https://github.com/pocketbase/pocketbase/stargazers)  
+- **[PocketBase](https://github.com/pocketbase/pocketbase)** [![GitHub_Stars](https://img.shields.io/github/stars/pocketbase/pocketbase?style=social&color=white)](https://github.com/pocketbase/pocketbase/stargazers)  
   📦 **Zero-dependency backend in 1 Go binary** *(MIT)*. Embedded SQLite database with real-time subscriptions, built-in authentication, S3-compatible file storage, and an elegant embedded administrative dashboard. Runs on a $5/month VPS with under 20 MB of idle memory.
 
-- **[Appwrite](https://github.com/appwrite/appwrite)** [![GitHub stars](https://img.shields.io/github/stars/appwrite/appwrite?style=social&color=white)](https://github.com/appwrite/appwrite/stargazers)  
+- **[Appwrite](https://github.com/appwrite/appwrite)** [![GitHub_Stars](https://img.shields.io/github/stars/appwrite/appwrite?style=social&color=white)](https://github.com/appwrite/appwrite/stargazers)  
   🛡️ **Full-spectrum open-source Firebase alternative** *(BSD-3-Clause)*. Document database backed by MariaDB with comprehensive authentication (OAuth, magic URL, phone, anonymous), cloud functions in 30+ runtimes, file storage, push notifications, and real-time event streaming.
 
-- **[Payload CMS](https://github.com/payloadcms/payload)** [![GitHub stars](https://img.shields.io/github/stars/payloadcms/payload?style=social&color=white)](https://github.com/payloadcms/payload/stargazers)  
+- **[Payload CMS](https://github.com/payloadcms/payload)** [![GitHub_Stars](https://img.shields.io/github/stars/payloadcms/payload?style=social&color=white)](https://github.com/payloadcms/payload/stargazers)  
   🛠️ **Code-first, full-stack Next.js and Node BaaS framework** *(MIT)*. Delivers native TypeScript database models over PostgreSQL or MongoDB, instant REST/GraphQL APIs, field-level access control, and a fully customizable React admin UI.
 
-- **[Directus](https://github.com/directus/directus)** [![GitHub stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers)  
+- **[Directus](https://github.com/directus/directus)** [![GitHub_Stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers)  
   🐰 **Open-source data engine and API wrapper** *(BUSL-1.1)*. Layers dynamic REST and GraphQL APIs instantly on top of any existing SQL database without proprietary migrations or schema lock-in, accompanied by an intuitive no-code data management studio.
 
-- **[SurrealDB](https://github.com/surrealdb/surrealdb)** [![GitHub stars](https://img.shields.io/github/stars/surrealdb/surrealdb?style=social&color=white)](https://github.com/surrealdb/surrealdb/stargazers)  
+- **[SurrealDB](https://github.com/surrealdb/surrealdb)** [![GitHub_Stars](https://img.shields.io/github/stars/surrealdb/surrealdb?style=social&color=white)](https://github.com/surrealdb/surrealdb/stargazers)  
   🌌 **Multi-model database and all-in-one BaaS platform** *(BSL-1.1)*. Unifies relational, document, graph, geospatial, and vector search with real-time live queries, granular table/row permissions, and direct frontend connections without intermediate backend servers.
 
-- **[Parse Server](https://github.com/parse-community/parse-server)** [![GitHub stars](https://img.shields.io/github/stars/parse-community/parse-server?style=social&color=white)](https://github.com/parse-community/parse-server/stargazers)  
+- **[Parse Server](https://github.com/parse-community/parse-server)** [![GitHub_Stars](https://img.shields.io/github/stars/parse-community/parse-server?style=social&color=white)](https://github.com/parse-community/parse-server/stargazers)  
   📱 **The foundational open-source mBaaS framework** *(Apache-2.0)*. Battle-tested Node.js backend providing push notifications, social authentication, file storage, Cloud Code, and LiveQuery real-time database subscriptions over MongoDB or PostgreSQL.
 
-- **[Amplication](https://github.com/amplication/amplication)** [![GitHub stars](https://img.shields.io/github/stars/amplication/amplication?style=social&color=white)](https://github.com/amplication/amplication/stargazers)  
+- **[Amplication](https://github.com/amplication/amplication)** [![GitHub_Stars](https://img.shields.io/github/stars/amplication/amplication?style=social&color=white)](https://github.com/amplication/amplication/stargazers)  
   ⚙️ **Developer platform for auto-generating enterprise Node.js backends** *(Apache-2.0)*. Generates production-ready NestJS and Prisma codebases with auto-configured PostgreSQL databases, GraphQL APIs, REST APIs, Passport auth, and Kafka event streaming.
 
-- **[Convex Backend](https://github.com/get-convex/convex-backend)** [![GitHub stars](https://img.shields.io/github/stars/get-convex/convex-backend?style=social&color=white)](https://github.com/get-convex/convex-backend/stargazers)  
+- **[Convex Backend](https://github.com/get-convex/convex-backend)** [![GitHub_Stars](https://img.shields.io/github/stars/get-convex/convex-backend?style=social&color=white)](https://github.com/get-convex/convex-backend/stargazers)  
   ⚡ **Open-source reactive database engine** *(FSL-1.1-Apache-2.0)*. The official open-source core behind Convex Cloud written in Rust. Executes reactive TypeScript functions directly on the database with automatic real-time consistency.
 
-- **[Instant](https://github.com/instantdb/instant)** [![GitHub stars](https://img.shields.io/github/stars/instantdb/instant?style=social&color=white)](https://github.com/instantdb/instant/stargazers)  
+- **[Instant](https://github.com/instantdb/instant)** [![GitHub_Stars](https://img.shields.io/github/stars/instantdb/instant?style=social&color=white)](https://github.com/instantdb/instant/stargazers)  
   🔮 **Modern client-side reactive database and BaaS** *(Apache-2.0)*. Built specifically for real-time collaborative and AI-driven applications with optimistic client updates, offline synchronization, and relational graph queries right from the frontend.
 
-- **[Nhost](https://github.com/nhost/nhost)** [![GitHub stars](https://img.shields.io/github/stars/nhost/nhost?style=social&color=white)](https://github.com/nhost/nhost/stargazers)  
+- **[Nhost](https://github.com/nhost/nhost)** [![GitHub_Stars](https://img.shields.io/github/stars/nhost/nhost?style=social&color=white)](https://github.com/nhost/nhost/stargazers)  
   🎯 **GraphQL-first open-source Firebase alternative** *(MIT)*. Assembles PostgreSQL, Hasura GraphQL engine, GoTrue authentication, and MinIO storage into a unified Docker Compose stack for instant self-hosted deployments.
 
-- **[Kuzzle](https://github.com/kuzzleio/kuzzle)** [![GitHub stars](https://img.shields.io/github/stars/kuzzleio/kuzzle?style=social&color=white)](https://github.com/kuzzleio/kuzzle/stargazers)  
+- **[Kuzzle](https://github.com/kuzzleio/kuzzle)** [![GitHub_Stars](https://img.shields.io/github/stars/kuzzleio/kuzzle?style=social&color=white)](https://github.com/kuzzleio/kuzzle/stargazers)  
   📡 **Multi-protocol backend for IoT and real-time apps** *(Apache-2.0)*. High-throughput event engine supporting HTTP, WebSocket, MQTT, and STOMP with real-time geofencing, advanced search, and fine-grained access rights.
 
-- **[Fluxbase](https://github.com/nimbleflux/fluxbase)** [![GitHub stars](https://img.shields.io/github/stars/nimbleflux/fluxbase?style=social&color=white)](https://github.com/nimbleflux/fluxbase/stargazers)  
+- **[Fluxbase](https://github.com/nimbleflux/fluxbase)** [![GitHub_Stars](https://img.shields.io/github/stars/nimbleflux/fluxbase?style=social&color=white)](https://github.com/nimbleflux/fluxbase/stargazers)  
   🤖 **Lightweight single-binary Supabase alternative** *(AGPL-3.0)*. Written in Go with PostgreSQL as the sole dependency. Features REST/GraphQL APIs, OAuth2/OIDC/SAML auth, pgvector search, AI/RAG knowledge bases, and an MCP (Model Context Protocol) server.
 
-- **[Fluxend](https://github.com/fluxend/fluxend)** [![GitHub stars](https://img.shields.io/github/stars/fluxend/fluxend?style=social&color=white)](https://github.com/fluxend/fluxend/stargazers)  
+- **[Fluxend](https://github.com/fluxend/fluxend)** [![GitHub_Stars](https://img.shields.io/github/stars/fluxend/fluxend?style=social&color=white)](https://github.com/fluxend/fluxend/stargazers)  
   🏎️ **Self-hosted Go BaaS for PostgreSQL** *(GPL-3.0)*. Auto-generates PostgREST endpoints, organization multi-tenancy, JWT auth, S3 file storage, CSV/Excel imports, and automated audit trails.
 
-- **[EdgeBase](https://github.com/edge-base/edgebase)** [![GitHub stars](https://img.shields.io/github/stars/edge-base/edgebase?style=social&color=white)](https://github.com/edge-base/edgebase/stargazers)  
+- **[EdgeBase](https://github.com/edge-base/edgebase)** [![GitHub_Stars](https://img.shields.io/github/stars/edge-base/edgebase?style=social&color=white)](https://github.com/edge-base/edgebase/stargazers)  
   🌐 **Edge-native BaaS on Cloudflare Workers and Durable Objects** *(MIT)*. Allocates an isolated Durable Object with embedded SQLite per tenant, achieving near-zero millisecond cold starts with global multi-region edge deployment.
 
 ---
@@ -157,8 +157,8 @@ Contributions to this ecosystem catalog are warmly welcomed:
 
 1. 🍴 Fork this repository.
 2. 📝 Update `README.md` with your new BaaS product or open-source repository. Ensure entries follow the existing structured tabular or bulleted format.
-3. 🏷️ For open-source entries, ensure you include the official social star badge formatted as:  
-   `[![GitHub stars](https://img.shields.io/github/stars/{owner}/{repo}?style=social&color=white)](https://github.com/{owner}/{repo}/stargazers)`
+3. 🏷️ For open-source entries, ensure you include the official social Stars_Badge formatted as:  
+   `[![GitHub_Stars](https://img.shields.io/github/stars/{owner}/{repo}?style=social&color=white)](https://github.com/{owner}/{repo}/stargazers)`
 4. 💰 For SaaS entries, include specific pricing tiers, free tier quotas, and corporate scale metrics.
 5. 🚀 Submit a Pull Request with a clear description of the project.
 
