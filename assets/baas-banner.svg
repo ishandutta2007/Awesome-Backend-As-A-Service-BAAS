@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <linearGradient id="primary-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accent-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.05" />
+    </linearGradient>
+
+    <radialGradient id="sphere-glow-1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="sphere-glow-2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="blur-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 46px;
+        letter-spacing: -0.5px;
+        fill: #ffffff;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        fill: #94a3b8;
+      }
+      .badge-label {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+      .code-font {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 12px;
+        fill: #38bdf8;
+      }
+
+      /* Dynamic background animations */
+      @keyframes floatSlow1 {
+        0% { transform: translate(0px, 0px) scale(1); }
+        50% { transform: translate(40px, -25px) scale(1.1); }
+        100% { transform: translate(0px, 0px) scale(1); }
+      }
+      @keyframes floatSlow2 {
+        0% { transform: translate(0px, 0px) scale(1); }
+        50% { transform: translate(-30px, 35px) scale(1.08); }
+        100% { transform: translate(0px, 0px) scale(1); }
+      }
+      @keyframes pulseGrid {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes flowOrbit {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes nodeGlow {
+        0%, 100% { r: 4px; opacity: 0.6; }
+        50% { r: 7px; opacity: 1; }
+      }
+      @keyframes dashAnim {
+        to { stroke-dashoffset: -40; }
+      }
+
+      .floating-cloud-1 {
+        animation: floatSlow1 12s ease-in-out infinite;
+      }
+      .floating-cloud-2 {
+        animation: floatSlow2 15s ease-in-out infinite;
+      }
+      .grid-lines {
+        animation: pulseGrid 6s ease-in-out infinite;
+      }
+      .orbit-group {
+        transform-origin: 1040px 180px;
+        animation: flowOrbit 25s linear infinite;
+      }
+      .pulsing-node {
+        animation: nodeGlow 3s ease-in-out infinite;
+      }
+      .stream-line {
+        stroke-dasharray: 6 6;
+        animation: dashAnim 2s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="20" fill="url(#bg-grad)" />
+  <rect width="1198" height="358" x="1" y="1" rx="19" fill="none" stroke="#334155" stroke-opacity="0.4" stroke-width="2" />
+
+  <!-- Animated Glowing Spheres (in background) -->
+  <g class="floating-cloud-1" filter="url(#blur-glow)">
+    <circle cx="220" cy="90" r="140" fill="url(#sphere-glow-1)" />
+  </g>
+  <g class="floating-cloud-2" filter="url(#blur-glow)">
+    <circle cx="1020" cy="270" r="160" fill="url(#sphere-glow-2)" />
+  </g>
+
+  <!-- Tech Grid Background Pattern -->
+  <g class="grid-lines" stroke="#334155" stroke-width="0.75" opacity="0.25">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    
+    <line x1="100" y1="0" x2="100" y2="360" />
+    <line x1="250" y1="0" x2="250" y2="360" />
+    <line x1="400" y1="0" x2="400" y2="360" />
+    <line x1="550" y1="0" x2="550" y2="360" />
+    <line x1="700" y1="0" x2="700" y2="360" />
+    <line x1="850" y1="0" x2="850" y2="360" />
+    <line x1="1000" y1="0" x2="1000" y2="360" />
+    <line x1="1150" y1="0" x2="1150" y2="360" />
+  </g>
+
+  <!-- Dynamic Animated Tech Illustration (Right Side) -->
+  <g transform="translate(40, 0)">
+    <!-- Connected Data Node Ring -->
+    <circle cx="1000" cy="180" r="110" fill="none" stroke="#475569" stroke-opacity="0.3" stroke-width="1.5" />
+    <circle cx="1000" cy="180" r="75" fill="none" stroke="#6366f1" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="4 4" class="stream-line" />
+    
+    <!-- Orbiting nodes -->
+    <g class="orbit-group">
+      <circle cx="1000" cy="70" r="6" fill="#38bdf8" />
+      <circle cx="1110" cy="180" r="5" fill="#818cf8" />
+      <circle cx="1000" cy="290" r="7" fill="#c084fc" />
+      <circle cx="890" cy="180" r="6" fill="#34d399" />
+    </g>
+
+    <!-- Center Hub -->
+    <circle cx="1000" cy="180" r="42" fill="#1e293b" stroke="#38bdf8" stroke-width="2.5" />
+    <path d="M986 170 L1000 162 L1014 170 L1014 190 L1000 198 L986 190 Z" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="1000" cy="180" r="4" fill="#67e8f9" class="pulsing-node" />
+  </g>
+
+  <!-- Foreground Content: Header & Titles (Safe from any overlapping) -->
+  <g transform="translate(60, 0)">
+    <!-- Top Meta Tag / Pill -->
+    <g transform="translate(0, 52)">
+      <rect width="260" height="30" rx="15" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2" stroke-opacity="0.8" />
+      <circle cx="16" cy="15" r="4.5" fill="#10b981" class="pulsing-node" />
+      <text x="30" y="20" class="badge-label">CURATED ECOSYSTEM 2026</text>
+      <text x="200" y="20" class="code-font">v2.5</text>
+    </g>
+
+    <!-- Title Heading -->
+    <text x="0" y="145" class="title-text">
+      Backend-as-a-Service
+    </text>
+    <text x="510" y="145" fill="url(#primary-glow)" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="900" font-size="46px">
+      (BaaS)
+    </text>
+
+    <!-- Subtitle / Mission -->
+    <text x="0" y="195" class="subtitle-text">
+      The definitive directory of SaaS powerhouses &amp; open-source platforms
+    </text>
+    <text x="0" y="225" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="400" font-size="16px" fill="#64748b">
+      Instant APIs • Auth • Real-Time Databases • Serverless Storage • Self-Hosted Cloud
+    </text>
+
+    <!-- Feature Pills in Foreground -->
+    <g transform="translate(0, 265)">
+      <!-- Pill 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="130" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="18" y="22" class="badge-label">⚡ Real-Time</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(142, 0)">
+        <rect width="115" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="16" y="22" class="badge-label">🔒 Secure Auth</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(269, 0)">
+        <rect width="145" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="16" y="22" class="badge-label">🌐 GraphQL / REST</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(426, 0)">
+        <rect width="130" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="16" y="22" class="badge-label">🐳 Self-Hosted</text>
+      </g>
+    </g>
+  </g>
+</svg>
